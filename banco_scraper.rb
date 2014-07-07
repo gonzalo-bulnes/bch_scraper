@@ -1,6 +1,6 @@
 require 'mechanize'
 
-class BancoScrapper
+class BancoScraper
 
   def initialize(rut, password)
     @agent = Mechanize.new
